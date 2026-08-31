@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "modulo_01_hola_mundo",
+]
+
+resolver = "3"

@@ -1,0 +1,15 @@
+# Archivos generados por Cargo
+target/
+
+# Archivos de IDE / editor
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
