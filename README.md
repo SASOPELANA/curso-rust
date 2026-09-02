@@ -44,3 +44,22 @@ Dictado por: Pildoras Informáticas, Youtuber
   <img height="32" width="32" src="./assets/companies/cloudflare-icon.svg" alt="Cloudflare" /> Cloudflare
   <img height="32" width="32" src="./assets/companies/dropbox-icon.svg" alt="Dropbox" /> Dropbox
 </p>
+
+## Tipos en Rust
+
+**Escaleras:**
+
+- Representan un único valor simple
+- Enteros
+  - I8, u8, u16, I32, u32, i64, i128, u128, isize, usize
+- Decimales (flotantes)
+  - f32, f64
+- Booleanos
+  - bool
+- Caracteres
+  - char
+
+**Compuestos:**
+
+- Tuplas
+- Arrays
