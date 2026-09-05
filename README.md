@@ -63,3 +63,26 @@ Dictado por: Pildoras Informáticas, Youtuber
 
 - Tuplas
 - Arrays
+
+## Convención `snake_case` en Rust: El Estándar de los Devs
+
+### ¿Qué es?
+
+En Rust, **los nombres de variables y funciones DEBEN escribirse en `snake_case`**:
+
+- Todas las letras en minúsculas
+- Palabras separadas por guiones bajos (`_`)
+
+**Ejemplo:**
+
+```rust
+let mi_variable = 10;        // ✅ Correcto
+let miVariable = 10;         // ❌ Incorrecto (camelCase)
+let MiVariable = 10;         // ❌ Incorrecto (PascalCase)
+```
+
+**El Compilador NO lo exige:**
+
+- Rust compila y ejecuta sin problemas aunque uses camelCase o PascalCase.
+
+- No es un error, es una convención de estilo.
