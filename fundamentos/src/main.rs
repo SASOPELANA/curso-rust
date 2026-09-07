@@ -1,3 +1,10 @@
+// Constantes en Rust
+// Debe declararse con la palabra clave const y debe tener un tipo de dato explícito.
+// Debe ser en mayúsculas y con guiones bajos para separar palabras.
+// A nivel global
+
+const PI: f64 = 3.14;
+
 fn main() {
     println!("\n   ----- Fundamentos de Rust -----\n");
 
@@ -24,4 +31,29 @@ fn main() {
 
     // Esto no es posible ya que nombre se movió a name, por lo que nombre ya no es válido
     // println!("{}", nombre);
+
+    println!("\n   ----- Variables Inmutables - Variables Mutables - Constantes -----\n");
+
+    let mut contador = 0;
+
+    contador = contador + 1;
+
+    println!("Contador: {}", contador);
+
+    println!("\n   ----- Constantes -----\n");
+    println!("El valor de PI es: {}", PI);
+
+    valor_pi();
+    print!("\n");
+    let n = get_num(5);
+
+    println!("El valor de n es: {}", n);
+}
+
+fn valor_pi() {
+    println!("El valor de PI es: {}", PI);
+}
+
+fn get_num(x: i32) -> i32 {
+    return x;
 }
