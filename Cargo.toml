@@ -1,5 +1,6 @@
 [workspace]
 members = [
+  "borrowing",
   "fundamentos",
   "modulo_01_hola_mundo",
 ]

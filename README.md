@@ -86,3 +86,14 @@ let MiVariable = 10;         // ❌ Incorrecto (PascalCase)
 - Rust compila y ejecuta sin problemas aunque uses camelCase o PascalCase.
 
 - No es un error, es una convención de estilo.
+
+## Borrowing
+
+**¿Qué es?**
+
+- Mecanismo mediante el cual una variable permite que otra parte del programa acceda a su valor sin transferir la propiedad (ownership).
+
+- Rust lo hace creando una referencia a el (mutable o inmutable), permitiendo leerlo o modificarlo temporalmente sin cambiar el dueño real.
+
+- Con esto el acceso a la memoria es seguro sin punteros colgantes, accesos simultáneos o
+  modificaciones no controladas.
